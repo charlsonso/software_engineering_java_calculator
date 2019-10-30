@@ -3,6 +3,14 @@
   <groupId>java_calculator</groupId>
   <artifactId>java_calculator</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>junit</groupId>     <!-- NOT org.junit here -->
+  		<artifactId>junit-dep</artifactId>
+  		<version>4.8.2</version>
+	</dependency>
+  </dependencies>
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <testSourceDirectory>test</testSourceDirectory>
