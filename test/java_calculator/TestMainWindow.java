@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class MainWindowTest {
+class TestMainWindow {
 	MainWindow w;
 	@Test
 	void construct_window_test() {
